@@ -17,6 +17,8 @@ while play_again == "":
     print()
 
     if balance < 1:
+        # If balance is to low, exit the game and
+        # output a suitable message
         play_again = "xxx"
         print("Sorry you have run out of money")
     else:
